@@ -10,7 +10,7 @@ whereby the first one must have the following structure
     13:37 root [services] /srv/docker/volumes/rss2email
     # tree
     .
-        |-- test1
+    |-- test1
     |   |-- config.py
     |   `-- data
     |       `-- feeds.dat
