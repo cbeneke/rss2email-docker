@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $? -lt 2 ]]; then
+if [[ $# -lt 2 ]]; then
     echo "Usage: $0 ID feed-url [feed-url [feed-url ..]]"
     exit 1
 fi

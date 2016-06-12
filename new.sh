@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $? -lt 2 ]]; then
+if [[ $# -ne 2 ]]; then
     echo "Usage: $0 ID your@email"
     exit 1
 fi
