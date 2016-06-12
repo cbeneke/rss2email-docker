@@ -1,4 +1,4 @@
-FROM archlinux:latest
+FROM pritunl/archlinux:latest
 MAINTAINER Christian Beneke <c.beneke@wirelab.org>
 
 RUN pacman -Syy && \
