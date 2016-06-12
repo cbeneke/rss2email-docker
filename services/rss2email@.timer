@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the rss2email caller for %i
+
+[Timer]
+Unit=rss2email@%i.service
+OnBootSec=5m
+OnUnitActiveSec=1h
+Persistent=True
+
+[Install]
+WandetBy=multi-user.target

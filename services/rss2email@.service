@@ -1,0 +1,6 @@
+[Unit]
+Description=rss2email caller for %i
+
+[Service]
+Type=oneshot
+ExecStart=/opt/rss2email/renew.sh %i
