@@ -8,4 +8,4 @@ OnUnitActiveSec=1h
 Persistent=True
 
 [Install]
-WandetBy=multi-user.target
+WantedBy=timers.target
